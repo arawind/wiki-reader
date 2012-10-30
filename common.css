@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+#opacity{
+	z-index: 10;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	background-color: black;
+	opacity:0.9;
+	filter:alpha(opacity=90);
+}
+#closeButton{
+	position:fixed;
+	top: 10px;
+	right: 10px;
+	width:10px;
+	height:10px;
+	padding: 5px;
+	font-size: 16px;
+	font-weight: bolder;
+	color:white;
+	cursor:pointer;
+	z-index: 100;
+}
+#readerWrapper{
+	z-index:11;
+	position: absolute;
+	top: 40px;
+	margin: auto;
+	width: 100%;
+	z-index: 11;
+}
+#readerContent{
+	font-family: Garamond, Georgia, serif;
+	width:800px;
+	margin:0 auto;
+	background: #fefefe;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	-webkit-box-shadow:  0px 0px 12px 0px rgba(0, 0, 0, 0.6);
+	box-shadow:  0px 0px 12px 0px rgba(0, 0, 0, 0.6);
+	padding:5%;
+	margin-bottom:40px;
+}
+#readerContent h1{
+	font-weight: 700;
+	font-size: 2em;
+}
+#readerContent h2{
+	font-weight: 600;
+	font-size: 1.5em;
+}
+#readerContent h3{
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
+#readerContent h4{font-weight: 500; font-size: 1.1em;}
+#readerContent h5{font-weight: 300; font-size: 1.0em;}
+#readerContent h6{font-weight: 250; font-size: 1.0em;}
+
+#readerContent p{
+		font-weight: 100;
+		font-size: 1em;
+		text-align: justify;
+		margin: auto;
+}
+a.readerLink{
+	color:#330066;
+}
+a.readerLink:hover{
+	text-decoration:none;
+}
+
